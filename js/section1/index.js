@@ -30,15 +30,19 @@ let str = "I am a string.";
 console.log(typeof str); //output:string
 str = 34;
 console.log(typeof str); //output:number
-
+let nam = "object";
+let age = 20;
+let isApproved = true;
+let firstname = undefined;
+let color = null;
 //arrays
 // let arr = [1, 2, 3];
 // console.log(arr[0]); //output:1
 // console.log(arr[1]); //output:2
 
 //objects
-let nam = "object";
-let age = 20;
-let isApproved = true;
-let firstname = undefined;
-let color = null;
+let person = {
+    name: "John",
+    age: 36,
+};
+console.log(person.name); //output: John
