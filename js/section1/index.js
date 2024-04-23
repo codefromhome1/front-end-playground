@@ -37,3 +37,8 @@ console.log(typeof str); //output:number
 // console.log(arr[1]); //output:2
 
 //objects
+let nam = "object";
+let age = 20;
+let isApproved = true;
+let firstname = undefined;
+let color = null;
